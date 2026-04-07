@@ -375,9 +375,10 @@ ul { list-style: none; }
 }
 
 .brand-logo-img-lg {
-  height: 100px;
+  height: 40px;
   width: auto;
   object-fit: contain;
+  mix-blend-mode: lighten;
 }
 
 .hero-brand-divider {
