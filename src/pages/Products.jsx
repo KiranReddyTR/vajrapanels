@@ -104,7 +104,7 @@ export default function Products() {
             {[
               ['Industrial Plants & Factories','Heavy-duty power panels for manufacturing and processing plants.', '/images/Industrial power panel room details.png'],
               ['Commercial Buildings','Reliable distribution boards for offices, malls, and commercial spaces.', '/images/Electrical panel in modern space.png'],
-              ['Hospitals & Healthcare','Mission-critical power solutions for healthcare facilities.', null],
+              ['Hospitals & Healthcare','Mission-critical power solutions for healthcare facilities.', '/images/Hospital corridor with electrical control panel.png'],
               ['Data Centers','High-availability power distribution for IT infrastructure.', null],
               ['Infrastructure Projects','Robust panels for metro, airports, highways, and utilities.', null],
               ['Cleanrooms & Cold Storage','Specialized panels meeting stringent environmental standards.', null],
