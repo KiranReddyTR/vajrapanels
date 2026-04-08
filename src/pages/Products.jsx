@@ -102,15 +102,14 @@ export default function Products() {
           </div>
           <div className="industry-grid">
             {[
-              ['fa-industry','Industrial Plants & Factories','Heavy-duty power panels for manufacturing and processing plants.'],
-              ['fa-building','Commercial Buildings','Reliable distribution boards for offices, malls, and commercial spaces.'],
-              ['fa-hospital','Hospitals & Healthcare','Mission-critical power solutions for healthcare facilities.'],
-              ['fa-server','Data Centers','High-availability power distribution for IT infrastructure.'],
-              ['fa-road','Infrastructure Projects','Robust panels for metro, airports, highways, and utilities.'],
-              ['fa-snowflake','Cleanrooms & Cold Storage','Specialized panels meeting stringent environmental standards.'],
-            ].map(([icon, title, desc]) => (
+              ['Industrial Plants & Factories','Heavy-duty power panels for manufacturing and processing plants.'],
+              ['Commercial Buildings','Reliable distribution boards for offices, malls, and commercial spaces.'],
+              ['Hospitals & Healthcare','Mission-critical power solutions for healthcare facilities.'],
+              ['Data Centers','High-availability power distribution for IT infrastructure.'],
+              ['Infrastructure Projects','Robust panels for metro, airports, highways, and utilities.'],
+              ['Cleanrooms & Cold Storage','Specialized panels meeting stringent environmental standards.'],
+            ].map(([title, desc]) => (
               <div className="industry-card-dark animate-on-scroll" key={title}>
-                <div className="industry-icon"><i className={`fas ${icon}`}></i></div>
                 <h3>{title}</h3>
                 <p>{desc}</p>
               </div>
