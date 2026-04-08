@@ -62,35 +62,7 @@ export default function Team() {
         </div>
       </section>
 
-      <section className="experts-section">
-        <div className="container">
-          <div className="section-header animate-on-scroll">
-            <span className="section-tag">Our Team</span>
-            <h2>Meet Our <span className="text-gradient">Experts</span></h2>
-            <div className="section-line"></div>
-            <p className="section-desc">
-              At Neo Heights, we are at the forefront of industrial and commercial construction, dedicated to delivering top-notch quality while ensuring cost-efficiency. Our skilled team possesses the expertise to transform your vision into reality.
-            </p>
-          </div>
 
-          <div className="team-grid">
-            {experts.map((member, idx) => (
-              <div className="team-card animate-on-scroll" key={idx} style={{ transitionDelay: `${idx * 0.1}s` }}>
-                <div className="team-img-wrap">
-                  <img src={member.image} alt={member.name} />
-                </div>
-                <div className="team-info">
-                  <h4>{member.name}</h4>
-                  <p>{member.role}</p>
-                </div>
-                <div className="team-arrow">
-                  <i className="fas fa-arrow-up"></i>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </>
   )
 }
