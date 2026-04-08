@@ -107,7 +107,7 @@ export default function Products() {
               ['Hospitals & Healthcare','Mission-critical power solutions for healthcare facilities.', '/images/Hospital corridor with electrical control panel.png'],
               ['Data Centers','High-availability power distribution for IT infrastructure.', '/images/High-tech data center power distribution panel.png'],
               ['Infrastructure Projects','Robust panels for metro, airports, highways, and utilities.', '/images/Industrial power panel in urban setting.png'],
-              ['Cleanrooms & Cold Storage','Specialized panels meeting stringent environmental standards.', null],
+              ['Cleanrooms & Cold Storage','Specialized panels meeting stringent environmental standards.', '/images/Controlled environment power distribution panel.png'],
             ].map(([title, desc, img]) => (
               <div className="industry-card-dark animate-on-scroll" key={title}>
                 {img && <img src={img} alt={title} className="industry-card-img" loading="lazy" />}
