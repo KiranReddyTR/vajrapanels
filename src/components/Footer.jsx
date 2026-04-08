@@ -44,8 +44,8 @@ export default function Footer() {
           <div className="footer-contact">
             <h4>Contact Us</h4>
             <p><i className="fas fa-user"></i> Mr. Saravanan</p>
-            <p><i className="fas fa-phone"></i> <a href="tel:+917418762221">+91 74187 62221</a></p>
-            <p><i className="fas fa-envelope"></i> <a href="mailto:panels@neoheights.com">panels@neoheights.com</a></p>
+            <p><i className="fas fa-phone"></i> <a href="tel:+917418762221" style={{color:'inherit', textDecoration:'underline', cursor:'pointer'}}>+91 74187 62221</a></p>
+            <p><i className="fas fa-envelope"></i> <a href="mailto:panels@neoheights.com" style={{color:'inherit', textDecoration:'underline', cursor:'pointer'}}>panels@neoheights.com</a></p>
             <p><i className="fas fa-map-marker-alt"></i> Bangalore, Karnataka, India</p>
           </div>
         </div>
