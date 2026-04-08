@@ -106,7 +106,7 @@ export default function Products() {
               ['Commercial Buildings','Reliable distribution boards for offices, malls, and commercial spaces.', '/images/Electrical panel in modern space.png'],
               ['Hospitals & Healthcare','Mission-critical power solutions for healthcare facilities.', '/images/Hospital corridor with electrical control panel.png'],
               ['Data Centers','High-availability power distribution for IT infrastructure.', '/images/High-tech data center power distribution panel.png'],
-              ['Infrastructure Projects','Robust panels for metro, airports, highways, and utilities.', null],
+              ['Infrastructure Projects','Robust panels for metro, airports, highways, and utilities.', '/images/Industrial power panel in urban setting.png'],
               ['Cleanrooms & Cold Storage','Specialized panels meeting stringent environmental standards.', null],
             ].map(([title, desc, img]) => (
               <div className="industry-card-dark animate-on-scroll" key={title}>
