@@ -56,7 +56,7 @@ export default function Team() {
                   <img src="/images/neo-studio-logo.png" alt="Neo Studio" className="legacy-brand-img" />
                 </div>
               </div>
-              <Link to="/contact" className="btn btn-primary">Learn More <i className="fas fa-arrow-right"></i></Link>
+
             </div>
           </div>
         </div>
