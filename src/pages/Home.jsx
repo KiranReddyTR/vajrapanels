@@ -191,7 +191,7 @@ export default function Home() {
           <div className="industry-grid">
             {[
               ['Industrial Plants & Factories','Heavy-duty power panels for manufacturing and processing plants.', '/images/Industrial power panel room details.png'],
-              ['Commercial Buildings','Reliable distribution boards for offices, malls, and commercial spaces.', null],
+              ['Commercial Buildings','Reliable distribution boards for offices, malls, and commercial spaces.', '/images/Electrical panel in modern space.png'],
               ['Hospitals & Healthcare','Mission-critical power solutions for healthcare facilities.', null],
               ['Data Centers','High-availability power distribution for IT infrastructure.', null],
               ['Infrastructure Projects','Robust panels for metro, airports, highways, and utilities.', null],
