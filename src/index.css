@@ -3399,6 +3399,12 @@ body, .navbar, .footer, .section,
   align-items: center;
 }
 
+.legacy-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .legacy-image-wrap {
   position: relative;
   border-radius: var(--radius-lg);
@@ -3453,9 +3459,14 @@ body, .navbar, .footer, .section,
 }
 
 .legacy-main-logo {
-  max-width: 240px;
-  margin-bottom: 32px;
+  max-width: 180px;
+  margin-bottom: 20px;
   display: block;
+}
+
+.legacy-logo-top {
+  display: flex;
+  align-items: center;
 }
 
 .legacy-logos {
