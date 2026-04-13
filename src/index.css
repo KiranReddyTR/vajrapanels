@@ -3587,13 +3587,15 @@ body, .navbar, .footer, .section,
 .legacy-video-wrap {
   border-radius: var(--radius-lg);
   overflow: hidden;
+  height: 100%;
 }
 
 .legacy-video {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   border-radius: var(--radius-lg);
+  object-fit: cover;
 }
 
 @media (max-width: 768px) {
