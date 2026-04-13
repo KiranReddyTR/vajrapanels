@@ -3546,10 +3546,23 @@ body, .navbar, .footer, .section,
 }
 
 .legacy-video-text h3 .text-gradient {
-  background: linear-gradient(135deg, var(--teal-light), var(--gold));
+  background: linear-gradient(135deg, #C5A800, var(--gold));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+[data-theme="light"] .legacy-section {
+  background: #ffffff;
+}
+
+[data-theme="light"] .legacy-video-text h3 {
+  color: var(--navy);
+}
+
+[data-theme="light"] .legacy-video-text p,
+[data-theme="light"] .legacy-video-points li {
+  color: var(--navy);
 }
 
 .legacy-video-text p {
