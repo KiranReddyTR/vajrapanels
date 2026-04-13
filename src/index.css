@@ -176,7 +176,6 @@ ul { list-style: none; }
   height: 56px;
   width: auto;
   object-fit: contain;
-  filter: brightness(0) invert(1);
 }
 
 .brand-text { display: flex; flex-direction: column; }
