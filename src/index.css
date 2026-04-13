@@ -3546,7 +3546,7 @@ body, .navbar, .footer, .section,
 
 .legacy-video-text p {
   font-size: 1.1rem;
-  color: var(--gray-700);
+  color: var(--navy);
   margin-bottom: 16px;
   line-height: 1.7;
 }
@@ -3562,7 +3562,7 @@ body, .navbar, .footer, .section,
 
 .legacy-video-points li {
   font-size: 1.1rem;
-  color: var(--gray-700);
+  color: var(--navy);
   padding-left: 20px;
   position: relative;
 }
