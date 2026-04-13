@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <div className="brand-logo footer-logo">
-              <img src="/images/vajra-panels-logo.svg" alt="Vajra Panels Logo" className="brand-logo-img" />
+              <img src="/images/vajra-panels-logo.png" alt="Vajra Panels Logo" className="brand-logo-img" />
             </div>
             <p className="footer-tagline">"Powering a Greener Future Together"</p>
             <div className="footer-social">

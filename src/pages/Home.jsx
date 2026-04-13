@@ -37,7 +37,7 @@ export default function Home() {
           </div>
           <div className="hero-brands animate-on-scroll">
             <div className="hero-brand-item">
-              <img src="/images/vajra-panels-logo.svg" alt="Vajra Panels Logo" className="brand-logo-img-lg" />
+              <img src="/images/vajra-panels-logo.png" alt="Vajra Panels Logo" className="brand-logo-img-lg" />
               <div><small>Precision Engineered</small></div>
             </div>
             <div className="hero-brand-divider"></div>

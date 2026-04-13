@@ -24,7 +24,7 @@ export default function Navbar() {
       <div className="nav-container">
         <Link to="/" className="nav-brand">
           <div className="brand-logo">
-            <img src="/images/vajra-panels-logo.svg" alt="Vajra Panels Logo" className="brand-logo-img" />
+            <img src="/images/vajra-panels-logo.png" alt="Vajra Panels Logo" className="brand-logo-img" />
           </div>
         </Link>
 
