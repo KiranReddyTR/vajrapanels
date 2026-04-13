@@ -61,10 +61,11 @@ export default function Team() {
 
           <div className="legacy-video-wrap">
             <video
-              controls
+              autoPlay
+              loop
+              muted
               playsInline
               className="legacy-video"
-              style={{minHeight: '200px', background: '#000'}}
             >
               <source src="/neo_heights_video.mp4" type="video/mp4" />
             </video>
