@@ -59,16 +59,29 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="legacy-video-wrap">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="legacy-video"
-            >
-              <source src="/neo_heights_video.mp4" type="video/mp4" />
-            </video>
+          <div className="legacy-video-section">
+            <div className="legacy-video-text animate-on-scroll">
+              <h3>Built to <span className="text-gradient">Power the Future</span></h3>
+              <p>Vajra Panels™ delivers precision-engineered electrical panels trusted across industries — from hospitals and data centers to industrial plants and commercial spaces.</p>
+              <p>Every panel we build carries decades of engineering expertise, rigorous quality standards, and a commitment to reliability that our clients depend on.</p>
+              <ul className="legacy-video-points">
+                <li>CPRI Tested &amp; Certified</li>
+                <li>ISO 9001:2015 Quality Standards</li>
+                <li>Custom-built for every application</li>
+                <li>Backed by the Arul Group legacy</li>
+              </ul>
+            </div>
+            <div className="legacy-video-wrap">
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="legacy-video"
+              >
+                <source src="/neo_heights_video.mp4" type="video/mp4" />
+              </video>
+            </div>
           </div>
         </div>
       </section>
