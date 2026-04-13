@@ -1,18 +1,22 @@
-<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+<svg width="320" height="80" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>
-      .teal { fill: #00A99D; }
-      .navy { fill: #2D3494; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
-      .bold { font-weight: 800; letter-spacing: -2px; }
-      .regular { font-weight: 400; letter-spacing: -1px; }
-    </style>
+    <linearGradient id="vajraGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00C4B4"/>
+      <stop offset="100%" style="stop-color:#0099CC"/>
+    </linearGradient>
   </defs>
-  <!-- Modern Geometric V -->
-  <path class="teal" d="M20,15 L50,85 L80,15 L64,15 L50,55 L36,15 Z" />
-  <!-- Integrated Bolt -->
-  <path class="teal" d="M50,45 L40,65 L55,65 L48,90 L60,55 L45,55 Z" />
-  
-  <text x="90" y="78" class="teal bold" font-size="76">AJRA</text>
-  <text x="270" y="78" class="navy regular" font-size="76">Panels</text>
-  <text x="388" y="35" class="navy" font-size="24">™</text>
+
+  <!-- V with lightning bolt -->
+  <polygon points="8,10 28,10 44,52 60,10 80,10 56,70 44,70 32,70" fill="url(#vajraGrad)"/>
+  <!-- lightning bolt cutout/overlay -->
+  <polygon points="44,30 36,52 46,52 40,72 54,44 44,44" fill="#0A1628"/>
+
+  <!-- AJRA text -->
+  <text x="86" y="62" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="52" fill="url(#vajraGrad)" letter-spacing="-1">AJRA</text>
+
+  <!-- Panels text -->
+  <text x="196" y="62" font-family="Arial, sans-serif" font-weight="400" font-size="48" fill="#ffffff" letter-spacing="0">Panels</text>
+
+  <!-- TM -->
+  <text x="308" y="22" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">™</text>
 </svg>
