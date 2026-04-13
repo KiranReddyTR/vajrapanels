@@ -3542,6 +3542,14 @@ body, .navbar, .footer, .section,
   margin-bottom: 24px;
   line-height: 1.2;
   color: var(--navy);
+  font-weight: 700;
+}
+
+.legacy-video-text h3 .text-gradient {
+  background: linear-gradient(135deg, var(--teal-light), var(--gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .legacy-video-text p {
