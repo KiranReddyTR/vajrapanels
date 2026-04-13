@@ -3527,6 +3527,19 @@ body, .navbar, .footer, .section,
   transform: scale(1.05);
 }
 
+.legacy-video-wrap {
+  margin-top: 60px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.legacy-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-lg);
+}
+
 .experts-section {
   padding: 120px 0;
   background: #06050F; /* Match dark screenshot */

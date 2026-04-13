@@ -56,8 +56,18 @@ export default function Team() {
                   <img src="/images/neo-studio-logo.png" alt="Neo Studio" className="legacy-brand-img" />
                 </div>
               </div>
-
             </div>
+          </div>
+
+          <div className="legacy-video-wrap">
+            <video
+              controls
+              playsInline
+              className="legacy-video"
+              style={{minHeight: '200px', background: '#000'}}
+            >
+              <source src="/neo_heights_video.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </section>
