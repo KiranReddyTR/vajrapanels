@@ -33,7 +33,7 @@ export default function Navbar() {
             <li><Link to="/" className={location.pathname === '/' ? 'active-page' : ''}>Home</Link></li>
             <li><Link to="/about" className={location.pathname === '/about' ? 'active-page' : ''}>About</Link></li>
             <li><Link to="/certifications" className={location.pathname === '/certifications' ? 'active-page' : ''}>Certifications</Link></li>
-            <li><Link to="/team" className={location.pathname === '/team' ? 'active-page' : ''}>Team</Link></li>
+            <li><Link to="/team" className={location.pathname === '/team' ? 'active-page' : ''}>Legacy</Link></li>
             <li><Link to="/products" className={location.pathname === '/products' ? 'active-page' : ''}>Products</Link></li>
             <li><Link to="/projects" className={location.pathname === '/projects' ? 'active-page' : ''}>Projects</Link></li>
             <li><Link to="/contact" className="nav-cta">Enquire Now</Link></li>
